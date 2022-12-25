@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="tests" name="Suite">
+
+  <test name="WebKit">
+  	
+    <classes>
+      <class name="com.testng.tests.OrangeHRM"/>
+    </classes>
+  </test> <!-- Test -->
+ 
+  
+</suite> <!-- Suite -->

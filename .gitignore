@@ -1,0 +1,11 @@
+.settings
+allure-results
+target
+.vscode
+test-output
+videos
+.classpath
+.project
+auth.json
+**.png
+**.pdf

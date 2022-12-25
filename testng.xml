@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="tests" name="Suite">
+
+  <test name="WebKit">
+  	<parameter name="Browser" value="WebKit" />
+    <classes>
+      <class name="com.testng.tests.OrangeHRM"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Chrome">
+  	<parameter name="Browser" value="Chrome" />
+    <classes>
+      <class name="com.testng.tests.OrangeHRM"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="FireFox">
+  	<parameter name="Browser" value="Firefox" />
+    <classes>
+      <class name="com.testng.tests.OrangeHRM"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
