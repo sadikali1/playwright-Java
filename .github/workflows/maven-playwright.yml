@@ -40,5 +40,5 @@ jobs:
           # GITHUB_TOKEN
           #github_token: # default is ${{ github.token }}
           # surefire/failsafe/junit compatible xml report paths in glob format
-          report_paths: default is **/surefire-reports/TEST-*.xml, **/failsafe-reports/TEST-*.xml
+          report_paths: default is **/surefire-reports/junitreports/TEST-*.xml, **/failsafe-reports/TEST-*.xml
           # check name for test reports      
