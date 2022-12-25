@@ -41,4 +41,10 @@ jobs:
           #github_token: # default is ${{ github.token }}
           # surefire/failsafe/junit compatible xml report paths in glob format
           report_paths: default is target/surefire-reports/junitreports/TEST-com.testng.tests.OrangeHRM.xml
+          
+      - name: Step 3 - Use the Upload Artifact GitHub Action
+        uses: actions/upload-artifact@v2
+        with: 
+          name: assets-for-download
+          path: target/
        
