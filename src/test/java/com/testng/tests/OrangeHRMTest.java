@@ -11,7 +11,7 @@ import com.microsoft.playwright.BrowserType;
 import com.microsoft.playwright.Page;
 import com.microsoft.playwright.Playwright;
 
-public class OrangeHRM {
+public class OrangeHRMTest {
 	
 	Browser browser;
 	Page page;
