@@ -37,7 +37,7 @@ public class OrangeHRMTest {
 			throw new IllegalArgumentException("Please provide valid browsertype");	
 		}
 		
-		browser = browserType.launch(new BrowserType.LaunchOptions().setHeadless(false));
+		browser = browserType.launch(new BrowserType.LaunchOptions().setHeadless(true));
 		page = browser.newPage();
 	}
 	
