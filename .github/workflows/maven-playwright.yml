@@ -31,17 +31,7 @@ jobs:
         run: mvn -B install -D skipTests --no-transfer-progress     
       - name: Run tests
         run: mvn test
-        
-      - name: Surefire Report
-            # You may pin to the exact commit or the version.
-            # uses: ScaCap/action-surefire-report@4a5ec3cb2aaa41baed5e4b431ea9a43eb6ad1c9c
-        uses: ScaCap/action-surefire-report@v1.1.1
-        with:
-          # GITHUB_TOKEN
-          #github_token: # default is ${{ github.token }}
-          # surefire/failsafe/junit compatible xml report paths in glob format
-          report_paths: default is target/surefire-reports/junitreports/TEST-com.testng.tests.OrangeHRM.xml
-          
+              
       - name: Step 3 - Use the Upload Artifact GitHub Action
         uses: actions/upload-artifact@v2
         with: 
